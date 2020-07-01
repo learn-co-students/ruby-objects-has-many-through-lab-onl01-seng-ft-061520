@@ -1,6 +1,6 @@
 # frozen_string_literal: false
 
-# appointment
+# appointment class
 class Appointment
   attr_accessor :date, :patient, :doctor
   @@all = []
