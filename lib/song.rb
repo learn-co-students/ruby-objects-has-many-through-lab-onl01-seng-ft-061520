@@ -5,7 +5,7 @@ class Song
   
   @@all = [] 
   
-  def initialize(name)
+  def initialize(name, artist, genre)
     @name = name
     @genre = genre 
     @artist = artist
@@ -18,7 +18,6 @@ class Song
   
   def say_hi 
     puts "Hi"
-  end 
-  
+  end
+    
 end 
-  
